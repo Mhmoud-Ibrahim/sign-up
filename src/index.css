@@ -1,0 +1,134 @@
+/* main-roles */
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+font-weight: 400;
+}
+:root{
+  --main-color:#7244C8;
+}
+.text-main{
+  color: var(--main-color);
+}
+.bg-main{
+  background-color: var(--main-color);
+}
+.btn-main{
+  background-color: var(--main-color) !important;
+  color: #fff !important;
+}
+label{
+  font-weight: 400;
+}
+a{
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+/* end-main-roles */
+
+/* start-steps */
+.step1{
+color: var(--main-color) !important;
+}
+ .step {
+  color:#ffff !important;
+  background-color: var(--main-color) !important;
+  border: 10px solid var(--main-color) !important;
+}
+.defaultBtn{
+  background-color: var(--main-color) !important;
+}
+/* end-steps */
+/* backshow */
+.backshow{
+  background-image: url(assets/Hinterrhein\ 1.svg),linear-gradient( rgba(127, 86, 217, 1),rgba(47, 35, 74, 1));
+background-position: center center;
+background-size: cover;
+ 
+}
+/* end-backshow */
+.content{
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.markaty-arow{
+  position: fixed;
+  left: 40%;
+  transform: rotate(-10deg);
+  font-size: 8px !important;
+  top: 40% !important;
+
+}
+.click-to-send{
+  font-size: 12px !important;
+}
+.store{
+  width:20% !important;
+}
+/* media-query */
+@media  screen and (max-width: 991px){
+  .markaty-arow {
+   width: 20% !important;
+   top: 65% !important;
+   }
+
+} 
+@media  screen and (max-width: 600px){
+.star{
+  font-size: 8px !important;
+}
+.save{
+  width: 100% !important;
+}
+.fram{
+  width: 20% !important;
+}
+.store{
+  width: 20% !important;
+}
+.content-header{
+  margin-top: -76px !important;
+}
+.content-header h1{
+  font-size: 25px;
+}
+.content-header p{
+  font-size:13px;
+}
+a{
+  font-size: 17px !important;
+  
+}
+} 
+@media screen and (max-width:776px) {
+  .footer{
+    width: 100% !important;
+    font-size: 12px !important;
+    background-color:var(--main-color) !important;
+    color: #fff !important;
+  }
+  .footer i {
+    color: #fff !important;
+  }
+}
+@media  screen and (max-width: 779px){
+.formContainer{
+  width: 100% !important;
+  padding: 5px !important;
+  margin: auto;
+}
+.markaty-arow {
+ display: none !important;
+}
+.inputsVerify input{
+  width: 10% !important;
+}
+
+} 
+
